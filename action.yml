@@ -1,9 +1,19 @@
 name: demo-action-Edo
 description: This is an action to assign yourself to an issue for a repo you are not a contributor to.
 author: Ediz Ertekin Jr
-branding:
-  icon: 'anchor'
-  color: 'white'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
+inputs:
+  who-to-greet: # id of input
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+  branding:
+    icon: 'anchor'
+    color: 'blue'
+  runs:
+    using: 'docker'
+    image: 'Dockerfile'
+    args:
+      - ${{ inputs.who-to-greet }}
