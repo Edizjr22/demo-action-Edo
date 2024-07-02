@@ -1,5 +1,5 @@
-name: demo action harness
-description: This is an action to assign yourself to an issue for a repo you are not a contributor to.
+name: Demo Action Harness
+description: 'Greet someone and record the time'
 author: Ediz Ertekin Jr
 inputs:
   who-to-greet: # id of input
