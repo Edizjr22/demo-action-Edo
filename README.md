@@ -16,5 +16,7 @@ The time we greeted you.
 
 ## Example usage
 
-uses: actions/hello-world-docker-action@v1
+- name: demo-action-Edo
+uses: Edizjr22/demo-action-Edo@v1
+            
 
