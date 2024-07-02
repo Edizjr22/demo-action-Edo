@@ -16,7 +16,7 @@ The time we greeted you.
 
 ## Example usage
 
-- name: demo-action-Edo
-uses: Edizjr22/demo-action-Edo@v1
+- name: demo-action-harness
+uses: Edizjr22/demo-action-harness@v3
             
 
